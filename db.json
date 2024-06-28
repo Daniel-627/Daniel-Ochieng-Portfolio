@@ -1,6 +1,8 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1", "content": "This is the first post" },
-    { "id": 2, "title": "Post 2", "content": "This is the second post" }
+    { "id": 1, "category": "Web Dev", "title": "Post 1", "content": "This is the first post", "photo": "public/photo(1).jpg" },
+    { "id": 2, "category": "Web Dev", "title": "Post 2", "content": "This is the second post", "photo": "public/photo(2).jpg"},
+    { "id": 3, "category": "Web Dev", "title": "Post 3", "content": "This is the first post", "photo": "public/photo(3).jpg" },
+    { "id": 4, "category": "Web Dev", "title": "Post 4", "content": "This is the second post", "photo": "public/photo(4).jpg"}
   ]
 }

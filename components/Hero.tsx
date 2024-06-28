@@ -1,4 +1,5 @@
 import React from 'react'
+import Socials from './lib/Socials'
 
 type Props = {}
 
@@ -14,16 +15,7 @@ export default function Hero({}: Props) {
           </div>
       </div>
       <div className='flex flex-1 flex-col justify-center items-center'>
-        <div>
-          <ol>
-            <li>Twitter </li>
-            <li>LinkedIn</li>
-            <li>Github</li>
-            <li>Dribble</li>
-            <li>Behance</li>
-            <li>Instagram</li>
-          </ol>
-        </div>
+        <Socials />
       </div>
     </div>
   )

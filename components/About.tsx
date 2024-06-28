@@ -1,4 +1,5 @@
 import React from 'react'
+import Stack from './lib/Stack'
 
 type Props = {}
 
@@ -11,14 +12,7 @@ export default function About({}: Props) {
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam illum, quo optio quisquam excepturi placeat qui unde amet iure distinctio omnis ab laborum, nemo dicta, provident totam nobis architecto quas.</p>
         </div>
         <div className='flex flex-1 justify-center items-center'>
-          <ol>
-            <li>Figma </li>
-            <li>ReactJs </li>
-            <li>Tailwind</li>
-            <li>TypeScript </li>
-            <li>Sanity.io </li>
-            <li>Javascript</li>
-          </ol>
+          <Stack />
         </div>
       </div>
       <div className='flex justify-center items-center py-10'>
